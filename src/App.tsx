@@ -1,7 +1,11 @@
+import "./App.css"
+import PropertyTile from "./components/PropertyTile"
+
 function App() {
   return (
     <>
-      HIIII
+      <h1>Mister Baguette explains CSS Properties</h1>
+      <PropertyTile />
     </>
   )
 }

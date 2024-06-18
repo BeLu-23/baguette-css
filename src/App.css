@@ -1,0 +1,72 @@
+#root {
+    --colorAqua: #48C6A9;
+    --colorBackground: #f4f4f4;
+    --colorTile: #fff;
+    --colorSoftBorder: #ddd;
+    --colorRed: red;
+    --colorBlack: black;
+
+}
+
+.container {
+    /* background-color: var(--colorAqua); */
+    background-color: var(--colorBackground);
+    /* height: 100vh; */
+    margin: 0 10%;
+    border: 1px solid var(--colorBlack);
+    border-radius: 10px;
+}
+
+.property {
+    background: var(--colorTile);
+    margin: 20px 2%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid --colorBlack;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px;
+  }
+
+  h2 {
+    margin: 5px;
+  }
+
+  pre {
+    background: var(--colorBackground);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 7px 0;;
+  }
+
+  .example {
+    padding: 10px;
+    background: var(--colorTile);
+    border: 1px solid var(--colorSoftBorder);
+    border-radius: 5px;
+    margin: 7px 0;
+  }
+
+  .colorRed {
+    color: var(--colorRed);
+  }
+
+  .example-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .example-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  .example-box.with-border {
+    border: 2px solid #333;
+  }
