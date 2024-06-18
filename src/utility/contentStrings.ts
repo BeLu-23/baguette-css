@@ -26,7 +26,7 @@ export const tileStrings = {
         css: 'p { color: red; }',
         output: {
             text1: 'This text is red.',
-            text2: undefined,
+            // text2: undefined,
         }
     },
     border: {

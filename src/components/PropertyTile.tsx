@@ -8,6 +8,9 @@ const PropertyTile = () => {
     return (
 
         <div className="container">
+
+            //TODO übergebe ganzes Objekt anstatt alle props einzeln
+            
             <SimpleProperty
                 property={tileStrings.color.property} 
                 description={tileStrings.color.description} 
