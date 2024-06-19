@@ -3,20 +3,24 @@ import CssCode from './CssCode';
 import DoubleOutput from './DoubleOutput';
 
 interface PropertyProps {
-    property: string;
-    description: string;
-    css: string;
-    text1: string;
-    text2: string;
+    propertyProps: {
+        property: string;
+        description: string;
+        css: string;
+        output: {
+            text1: string;
+            text2: string;
+        }
+    }
 }
 
-const Property = ({property, description, css, text1, text2}: PropertyProps) => {
+const Property = ({propertyProps}: PropertyProps) => {
     return (
         <div className="property">
-          <h2>Property: {property}</h2>
-          <p>{description}</p>
-          <CssCode css={css} />
-          <DoubleOutput text1={text1} text2={text2} />
+          <h2>Property: {propertyProps.property}</h2>
+          <p>{propertyProps.description}</p>
+          <CssCode css={propertyProps.css} />
+          <DoubleOutput text1={propertyProps.output.text1} text2={propertyProps.output.text2} />
         </div>
     )
 }

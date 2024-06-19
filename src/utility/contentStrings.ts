@@ -1,23 +1,10 @@
-// export const cssStrings = {
-//     pColorRed: 'p { color: red; }',
-//     border: '.example-box.with-border { border: 2px solid #333; }',
-// }
-
-// export const outputStrings = {
-//     pColorRed: 'This text is red.',
-//     borderNo: 'No Border',
-//     borderYes: 'With Border',
-// }
-
-// export const propertyStrings = {
-//     color: 'color',
-//     border: 'border',
-// }
-
-// export const descriptionStrings = {
-//     pColorRed: 'Sets the color of the text.',
-//     border: 'Compares an element with and without the border property.',
-// }
+export const titleDescription = {
+    title: 'Mister Baguette explains CSS Properties',
+    subtitle: 'Hi, I am Mr. Baguette',
+    description: "Nice to have you with us. Let's learn some CSS. This should act as a guide for you, but please take it however you like. It was meant to help out myself when i am unsure about how certain css properties work. Maybe it can help you too.",
+    noticeTitle: 'Please notice...',
+    notice: 'This is a work in process. I just started with this because i know it will help me out in the future. I will add content if i find the time to do so. At some point i will also group the content so that you can find what you are looking for more easily. If there are certain Properties that you would like me to cover, please write me and i will try my best do get to it as soon as possible',
+}
 
 export const tileStrings = {
     color: {
@@ -26,13 +13,13 @@ export const tileStrings = {
         css: 'p { color: red; }',
         output: {
             text1: 'This text is red.',
-            // text2: undefined,
+            text2: undefined,
         }
     },
     border: {
         property: 'border',
-        description: 'Compares an element with and without the border property.',
-        css: '.example-box.with-border { border: 2px solid #333; }',
+        description: 'Draws a line along the border of the element. First parameter (border-width) determines the width of the drawn line. The second Parameter (border-style) determines the style of the line, eg. a dotted or a dashed line. In this case it is solid. The third parameter (border-color) determines the color of the drawn line. Each of these attributes can also be called seperately by the respective names in the brakets.',
+        css: '.with-border { border: 2px solid black; }',
         output: {
             text1: 'No Border',
             text2: 'With Border',

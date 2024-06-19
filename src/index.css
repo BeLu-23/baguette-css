@@ -5,8 +5,7 @@
 }
 
 html, body, #root {
-  height: 100%;
-  width: 100%;
+  overflow-x: hidden;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   background-color: #48C6A9;
 }
