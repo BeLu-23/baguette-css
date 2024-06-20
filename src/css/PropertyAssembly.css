@@ -1,0 +1,75 @@
+#propertyLink {
+    /* margin: var(--tinyMargin) 0;
+    color: var(--colorTile); */
+    /* text-decoration: none; */
+}
+
+/* ul ul li {
+    margin-left: 40px;
+
+ul ul ul li {
+    margin-left: 60px; 
+} */
+
+.hasArrow {
+    list-style-type: none;
+}
+/*
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.nested {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.nested.active {
+    max-height: 1000px;
+    opacity: 1;
+} */
+
+/* .arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+}
+
+.rotate {
+    animation: quarterRotate 0.3s ease 1 forwards;
+}
+
+.rotate {
+    animation: quarterRotate 0.3s ease 1 forwards;
+}
+*/
+
+/* @keyframes quarterRotate {
+    0% {
+        transform: rotate(0deg);
+      }
+    100% {
+        transform: rotate(90deg);
+    }
+    
+} */
+
+
+.nested li {
+    margin-top: 8px;
+    margin-left: 48px;
+    /* list-style-type: circle; */
+}
+
+.circleListStyle {
+    list-style-type: circle;
+}

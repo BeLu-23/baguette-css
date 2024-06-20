@@ -5,7 +5,40 @@
 }
 
 html, body, #root {
+  height: 100vh;
   overflow-x: hidden;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  background-color: #48C6A9;
+  background-color: var(--colorAqua);
+}
+
+#root {
+  --colorAqua: #48C6A9;
+  --colorBackground: #f4f4f4;
+  --colorTile: #fff;
+  --colorSoftBorder: #ddd;
+  --colorRed: red;
+  --colorNiceRed: #D14343;
+  --colorBlack: black;
+  --colorYellow: #FFB020;
+  --colorDarkGreen: #0F5156;
+
+  --stdMargin: 40px;
+  --smallMargin: 20px;
+  --tinyMargin: 10px;
+  --radius: 10px;
+
+  --smallPadding: 10px;
+  --stdPadding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: var(--smallMargin) 0;
+}
+
+a {
+  color: var(--colorTile);
 }

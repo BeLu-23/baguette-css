@@ -1,0 +1,15 @@
+.footerLinks {
+    display: flex;
+    gap: var(--stdMargin);
+    justify-content: center;
+    margin: var(--tinyMargin) 0;
+}
+
+.rights {
+    margin: var(--tinyMargin) 0;
+}
+
+.footerLinks a {
+    color: var(--colorTile);
+    /* text-decoration: none; */
+}

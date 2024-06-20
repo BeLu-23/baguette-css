@@ -1,13 +1,14 @@
-import '../App.css';
+import '../css/Output.css';
 
 interface OutputProps {
     text: string
+    textProps: string;
 }
 
-const Output = ({ text }: OutputProps) => {
+const Output = ({ text, textProps }: OutputProps) => {
     return (
         <div className="example">
-            <p className="colorRed">{text}</p>
+            <p className={textProps}>{text}</p>
         </div>
     )
 }

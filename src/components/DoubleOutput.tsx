@@ -1,15 +1,19 @@
-import '../App.css';
+import '../css/Output.css';
 
 interface DoubleOutputProps {
-    text1: string;
-    text2: string;
+    output: {
+        text1: string;
+        text2: string;
+    }
+    leftProps: string;
+    rightProps: string;
 }
 
-const DoubleOutput = ({ text1, text2 }: DoubleOutputProps) => {
+const DoubleOutput = ({ output, leftProps, rightProps }: DoubleOutputProps) => {
     return (
         <div className="example-container">
-            <div className="example-box">{text1}</div>
-            <div className="example-box with-border">{text2}</div>
+            <div className={leftProps}>{output.text1}</div>
+            <div className={rightProps}>{output.text2}</div>
         </div>
     )
 }

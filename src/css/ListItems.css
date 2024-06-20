@@ -1,0 +1,26 @@
+.hasArrow {
+    list-style-type: none;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Fügt einen weichen Übergang hinzu */
+    transform: rotate(0deg); /* Standard-Rotation */
+}
+
+.rotate {
+    transform: rotate(90deg); /* Rotiert den Pfeil um 90 Grad */
+}
+
+.nested {
+    display: block; /* Beibehaltung der Block-Darstellung */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.nested.active {
+    max-height: 1000px; /* Groß genug, um alle inneren Elemente zu enthalten */
+    opacity: 1;
+}

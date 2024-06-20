@@ -1,13 +1,14 @@
 import Footer from "../components/Footer";
-import TitleSection from "../components/TitleSection";
+import PropertyAssembly from "../components/PropertyAssembly";
+import TitleSection from '../components/TitleSection';
 
 const HomeScreen = () => {
     return ( 
-        <div className="app">
+        <>
             <TitleSection />
-            {/* <PropertyTile /> */}
+            <PropertyAssembly />
             <Footer />
-        </div>
+        </>
      );
 }
  

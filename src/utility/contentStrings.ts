@@ -10,7 +10,7 @@ export const tileStrings = {
     color: {
         property: 'color',
         description: 'Sets the color of the text.',
-        css: 'p { color: red; }',
+        css: 'p { <br/>&nbsp;&nbsp;&nbsp;&nbsp;color: red; <br/>}',
         output: {
             text1: 'This text is red.',
             text2: undefined,
@@ -18,8 +18,27 @@ export const tileStrings = {
     },
     border: {
         property: 'border',
-        description: 'Draws a line along the border of the element. First parameter (border-width) determines the width of the drawn line. The second Parameter (border-style) determines the style of the line, eg. a dotted or a dashed line. In this case it is solid. The third parameter (border-color) determines the color of the drawn line. Each of these attributes can also be called seperately by the respective names in the brakets.',
-        css: '.with-border { border: 2px solid black; }',
+        description: 'Draws a line along the border of the element. <br/>First parameter (border-width) determines the width of the drawn line. <br/>The second Parameter (border-style) determines the style of the line, eg. a dotted or a dashed line. In this case it is solid. <br/>The third parameter (border-color) determines the color of the drawn line. <br/>Each of these attributes can also be called seperately by the respective names in the brakets.',
+        css: '.with-border { <br/>&nbsp;&nbsp;&nbsp;&nbsp;border: 2px solid black; <br/>}',
+        output: {
+            text1: 'No Border',
+            text2: 'With Border',
+        }
+    },
+
+    border1: {
+        property: 'border1',
+        description: 'Draws a line along the border of the element. <br/>First parameter (border-width) determines the width of the drawn line. <br/>The second Parameter (border-style) determines the style of the line, eg. a dotted or a dashed line. In this case it is solid. <br/>The third parameter (border-color) determines the color of the drawn line. <br/>Each of these attributes can also be called seperately by the respective names in the brakets.',
+        css: '.with-border { <br/>&nbsp;&nbsp;&nbsp;&nbsp;border: 2px solid black; <br/>}',
+        output: {
+            text1: 'No Border',
+            text2: 'With Border',
+        }
+    },
+    border2: {
+        property: 'border2',
+        description: 'Draws a line along the border of the element. <br/>First parameter (border-width) determines the width of the drawn line. <br/>The second Parameter (border-style) determines the style of the line, eg. a dotted or a dashed line. In this case it is solid. <br/>The third parameter (border-color) determines the color of the drawn line. <br/>Each of these attributes can also be called seperately by the respective names in the brakets.',
+        css: '.with-border { <br/>&nbsp;&nbsp;&nbsp;&nbsp;border: 2px solid black; <br/>}',
         output: {
             text1: 'No Border',
             text2: 'With Border',

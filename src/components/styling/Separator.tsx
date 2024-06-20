@@ -1,3 +1,5 @@
+import '../../css/Separator.css';
+
 const Separator = () => {
     return (
         <div className="separator" />

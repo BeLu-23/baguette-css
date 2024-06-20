@@ -1,4 +1,5 @@
-import Separator from "../components/Separator";
+import Separator from "../components/styling/Separator";
+import '../css/PrivacyPolicy.css';
 
 const PrivacyPolicy = () => {
     return ( 

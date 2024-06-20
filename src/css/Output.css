@@ -1,0 +1,33 @@
+.example {
+    padding: 10px;
+    background: var(--colorTile);
+    border: 1px solid var(--colorSoftBorder);
+    border-radius: var(--radius);
+    margin: var(--tinyMargin) 0;
+    display: flex;
+    justify-content: center;
+}
+
+.example-container {
+    margin-top: var(--smallMargin);
+    gap: var(--smallMargin);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.example-box {
+    flex-grow: 1;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  .example-box.with-border {
+    border: 2px solid black;
+  }
+
+.colorRed {
+    color: var(--colorRed);
+}

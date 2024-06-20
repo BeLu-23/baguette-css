@@ -1,0 +1,92 @@
+.imageSection {
+    margin: var(--stdMargin) 0;
+    display: flex;
+    flex-wrap: wrap; /* Ermöglicht das Umbrechen der Elemente */
+    align-items: center;
+    justify-content: center;
+    gap: var(--stdMargin);
+    width: 90%;
+}
+
+.titleImage {
+    width: 30%;
+    min-width: 300px;
+    max-width: 100%;
+    animation: rotate 3s linear infinite;
+    /* animation: rotateAndMove 3s linear infinite; */
+    /* animation: move 5s ease-in infinite; */
+}
+  
+.titleImage, .description {
+    flex: 1 1 300px; /* Flex-Grow, Flex-Shrink, Basisbreite */
+    max-width: 100%;
+}
+
+.noticeTile {
+    margin: var(--stdMargin) 0;
+    padding: var(--stdPadding);
+    border: 2px solid var(--colorDarkGreen);
+    background-color: var(--colorYellow);
+    border-radius: var(--radius);
+    color: var(--colorNiceRed);
+}
+
+
+
+
+
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg); /* Ausgangsposition */
+    }
+    25% {
+      transform: rotate(30deg); /* 10 Grad im Uhrzeigersinn */
+    }
+    50% {
+      transform: rotate(0deg); /* Zurück zu 0 Grad */
+    }
+    75% {
+      transform: rotate(-30deg); /* 10 Grad gegen den Uhrzeigersinn */
+    }
+    100% {
+      transform: rotate(0deg); /* Zurück zu 0 Grad */
+    }
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateX(0); /* Ausgangsposition */
+    }
+    25% {
+      transform: translateX(50px); /* Bewegt sich 50px nach rechts */
+    }
+    50% {
+      transform: translateX(0); /* Zurück zur Ausgangsposition */
+    }
+    75% {
+      transform: translateX(-50px); /* Bewegt sich 50px nach rechts */
+    }
+    100% {
+      transform: translateX(0); /* Zurück zur Ausgangsposition */
+    }
+  }
+
+  @keyframes rotateAndMove {
+    0% {
+      transform: rotate(0deg) translateX(0); /* Ausgangsposition */
+    }
+    25% {
+      transform: rotate(30deg) translateX(-30px); /* 10 Grad im Uhrzeigersinn */
+    }
+    50% {
+      transform: rotate(0deg) translateX(0); /* Zurück zu 0 Grad */
+    }
+    75% {
+      transform: rotate(-30deg) translateX(30px); /* 10 Grad gegen den Uhrzeigersinn */
+    }
+    100% {
+      transform: rotate(0deg) translateX(0); /* Zurück zu 0 Grad */
+    }
+  }

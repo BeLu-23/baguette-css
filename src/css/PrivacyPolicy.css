@@ -1,0 +1,8 @@
+.privacyPolicy {
+    margin: var(--stdMargin) 20%;
+    padding: 0 0 var(--stdMargin) 0;
+}
+
+.privatePolicyList {
+    margin: var(--smallMargin) 5%;
+}

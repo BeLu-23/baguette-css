@@ -1,0 +1,12 @@
+pre {
+    background: var(--colorBackground);
+    padding: var(--smallPadding);
+    border-radius: var(--radius);
+    margin: var(--tinyMargin) 0;
+    width: 100%;
+}
+  
+  code {
+    width: 90%;
+    white-space: pre-wrap;
+}

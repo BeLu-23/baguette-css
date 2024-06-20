@@ -1,4 +1,4 @@
-import "../App.css"
+import '../css/CssCode.css';
 
 interface CssCodeProps {
     css: string;
@@ -7,9 +7,7 @@ interface CssCodeProps {
 const CssCode = ({ css }: CssCodeProps) => {
     return (
         <pre>
-            <code>
-              {css}
-            </code>
+            <code dangerouslySetInnerHTML={{__html: css}} />
         </pre>
     )
 }

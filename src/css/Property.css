@@ -1,0 +1,16 @@
+.property {
+    background: var(--colorTile);
+    margin: var(--smallMargin) 2%;
+    padding: 20px;
+    border-radius: var(--radius);
+    border: 1px solid --colorBlack;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.property p {
+    width: 100%;
+}
