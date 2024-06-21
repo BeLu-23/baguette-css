@@ -1,3 +1,4 @@
+import BackToMain from "../components/BackToMain";
 import Footer from "../components/Footer";
 import FCDiv from "../components/styling/FCDiv";
 import Separator from "../components/styling/Separator";
@@ -11,9 +12,9 @@ const GerneralPropertyScreen = ({header, children}: GeneralPropertyScreenProps) 
     return (  
         <>
             <FCDiv>
-                <h2>{header}</h2>
+                <h1>{header}</h1>
+                <BackToMain />
                 <Separator />
-                <a style={{marginTop: '8px'}} href="/">Back to Main Page</a>
                 {children}
             </FCDiv>
             <Footer />

@@ -11,11 +11,13 @@ const PropertyAssembly = () => {
             <h2>Start learning about CSS...</h2>
             <FCDiv>
             <ul style={{marginBottom: '8px'}}>
-                <CollapsableListItem title='General Information about CSS' destination='' topElement={true}>
-                        <ListLink title='How to start?' destination=''/>
-                        <ListLink title='Css syntax' destination=''/>
-                        <ListLink title='selectors (. , #, etc)' destination=''/>
-                        <ListLink title='connecting props' destination=''/>
+                <CollapsableListItem title='Introduction to CSS' destination='/introduction-to-css' topElement={true}>
+                        <ListLink title='What is Css?' destination='/introduction-to-css/whatIsCss'/>
+                        <ListLink title='Creating a CSS File' destination='/introduction-to-css/creatingCssFile'/>
+                        <ListLink title='Linking CSS to HTML' destination='/introduction-to-css/linkingCssHtml'/>
+                        <ListLink title='Css Syntax' destination='/introduction-to-css/cssSyntax'/>
+                        <ListLink title='Selectors' destination='/introduction-to-css/selectors'/>
+                        <ListLink title='Combining Selectors' destination='/introduction-to-css/combiningSelectors'/>
                 </CollapsableListItem>
                 <CollapsableListItem title='Property Groups'  destination='' topElement={true}>
                     <CollapsableListItem title='Layout' destination=''>

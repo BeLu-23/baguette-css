@@ -1,0 +1,19 @@
+.introP {
+    margin-bottom: 16px;
+    width: 80%;
+}
+
+.introUl {
+    width: 70%;
+    margin-bottom: 16px;
+}
+
+.introLi {
+    width: 70%;
+    margin-bottom: 8px;
+}
+
+.introPre {
+    width: 80%;
+    /* background: red; */
+}
